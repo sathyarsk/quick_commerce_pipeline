@@ -1,0 +1,85 @@
+2025-07-20 14:27:13,867 - INFO - Order data loaded successfully with 1000 records
+2025-07-20 14:27:17,695 - INFO - Inventory data loaded successfully with 1000 records
+2025-07-20 14:27:18,970 - INFO - Null values identified successfully
+2025-07-20 14:27:19,023 - INFO - Null values removed successfully
+2025-07-20 14:27:19,093 - INFO - Missing values filled with default values successfully
+2025-07-20 14:27:19,206 - INFO - Data types corrected successfully
+2025-07-20 14:27:19,356 - INFO - String fields standardized successfully
+2025-07-20 14:27:19,391 - INFO - Duplicates removed successfully
+2025-07-20 14:27:19,482 - INFO - Test entries removed successfully
+2025-07-20 14:27:26,284 - INFO - Column names renamed to snake-case for consistency successfully
+2025-07-20 14:27:27,906 - INFO - Total order value calculated successfully
+2025-07-20 14:27:27,978 - INFO - Status values normalized successfully
+2025-07-20 14:27:29,808 - INFO - Missing stock levels handled successfully
+2025-07-20 14:27:29,815 - INFO - Inventory json has no nested json
+2025-07-20 14:27:29,841 - INFO - order_date column created
+2025-07-20 14:27:58,670 - INFO - Data written to Snowflake
+2025-07-20 14:28:00,483 - INFO - Closing down clientserver connection
+2025-07-20 15:51:22,222 - INFO - Order data loaded successfully with 1000 records
+2025-07-20 15:51:27,556 - INFO - Inventory data loaded successfully with 1000 records
+2025-07-20 15:51:29,485 - INFO - Null values identified successfully
+2025-07-20 15:51:29,531 - INFO - Null values removed successfully
+2025-07-20 15:51:29,608 - INFO - Missing values filled with default values successfully
+2025-07-20 15:51:29,740 - INFO - Data types corrected successfully
+2025-07-20 15:51:29,897 - INFO - String fields standardized successfully
+2025-07-20 15:51:29,931 - INFO - Duplicates removed successfully
+2025-07-20 15:51:29,979 - INFO - Test entries removed successfully
+2025-07-20 15:51:37,151 - INFO - Column names renamed to snake-case for consistency successfully
+2025-07-20 15:51:39,687 - INFO - Total order value calculated successfully
+2025-07-20 15:51:39,747 - INFO - Status values normalized successfully
+2025-07-20 15:51:41,328 - INFO - Missing stock levels handled successfully
+2025-07-20 15:51:41,338 - INFO - Inventory json has no nested json
+2025-07-20 15:51:41,361 - INFO - order_date column created
+2025-07-20 15:52:01,234 - INFO - Data written to Snowflake
+2025-07-20 15:52:02,026 - INFO - Closing down clientserver connection
+2025-07-20 15:55:50,615 - INFO - Order data loaded successfully with 1000 records
+2025-07-20 15:55:53,748 - INFO - Inventory data loaded successfully with 1000 records
+2025-07-20 15:55:54,822 - INFO - Null values identified successfully
+2025-07-20 15:55:54,882 - INFO - Null values removed successfully
+2025-07-20 15:55:54,951 - INFO - Missing values filled with default values successfully
+2025-07-20 15:55:55,091 - INFO - Data types corrected successfully
+2025-07-20 15:55:55,249 - INFO - String fields standardized successfully
+2025-07-20 15:55:55,284 - INFO - Duplicates removed successfully
+2025-07-20 15:55:55,343 - INFO - Test entries removed successfully
+2025-07-20 15:56:00,647 - INFO - Column names renamed to snake-case for consistency successfully
+2025-07-20 15:56:03,029 - INFO - Total order value calculated successfully
+2025-07-20 15:56:03,086 - INFO - Status values normalized successfully
+2025-07-20 15:56:04,723 - INFO - Missing stock levels handled successfully
+2025-07-20 15:56:04,741 - INFO - Inventory json has no nested json
+2025-07-20 15:56:04,772 - INFO - order_date column created
+2025-07-20 15:56:34,070 - INFO - Data written to Snowflake
+2025-07-20 15:56:35,222 - INFO - Closing down clientserver connection
+2025-07-20 15:57:59,372 - INFO - Order data loaded successfully with 1000 records
+2025-07-20 15:58:01,176 - INFO - Inventory data loaded successfully with 1000 records
+2025-07-20 15:58:02,074 - INFO - Null values identified successfully
+2025-07-20 15:58:02,145 - INFO - Null values removed successfully
+2025-07-20 15:58:02,234 - INFO - Missing values filled with default values successfully
+2025-07-20 15:58:02,405 - INFO - Data types corrected successfully
+2025-07-20 15:58:02,603 - INFO - String fields standardized successfully
+2025-07-20 15:58:02,635 - INFO - Duplicates removed successfully
+2025-07-20 15:58:02,680 - INFO - Test entries removed successfully
+2025-07-20 15:58:10,269 - INFO - Column names renamed to snake-case for consistency successfully
+2025-07-20 15:58:12,204 - INFO - Total order value calculated successfully
+2025-07-20 15:58:12,299 - INFO - Status values normalized successfully
+2025-07-20 15:58:14,400 - INFO - Missing stock levels handled successfully
+2025-07-20 15:58:14,410 - INFO - Inventory json has no nested json
+2025-07-20 15:58:14,440 - INFO - order_date column created
+2025-07-20 15:58:30,670 - INFO - Data written to Snowflake
+2025-07-20 15:58:31,463 - INFO - Closing down clientserver connection
+2025-07-20 16:00:53,906 - INFO - Order data loaded successfully with 1000 records
+2025-07-20 16:00:57,546 - INFO - Inventory data loaded successfully with 1000 records
+2025-07-20 16:00:58,683 - INFO - Null values identified successfully
+2025-07-20 16:00:58,778 - INFO - Null values removed successfully
+2025-07-20 16:00:58,874 - INFO - Missing values filled with default values successfully
+2025-07-20 16:00:59,048 - INFO - Data types corrected successfully
+2025-07-20 16:00:59,260 - INFO - String fields standardized successfully
+2025-07-20 16:00:59,299 - INFO - Duplicates removed successfully
+2025-07-20 16:00:59,370 - INFO - Test entries removed successfully
+2025-07-20 16:01:03,502 - INFO - Column names renamed to snake-case for consistency successfully
+2025-07-20 16:01:05,335 - INFO - Total order value calculated successfully
+2025-07-20 16:01:05,406 - INFO - Status values normalized successfully
+2025-07-20 16:01:07,643 - INFO - Missing stock levels handled successfully
+2025-07-20 16:01:07,653 - INFO - Inventory json has no nested json
+2025-07-20 16:01:07,683 - INFO - order_date column created
+2025-07-20 16:01:25,442 - INFO - Data written to Snowflake
+2025-07-20 16:01:26,686 - INFO - Closing down clientserver connection
