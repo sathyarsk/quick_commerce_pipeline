@@ -1,0 +1,48 @@
+2025-07-20 14:29:36,486 - INFO - Gps data loaded to dataframe gps_df
+2025-07-20 14:29:36,869 - INFO - Status data loaded to dataframe status_df
+2025-07-20 14:29:37,346 - INFO - Datatypes corected for GPS data
+2025-07-20 14:29:37,375 - INFO - Null values removed from GPS data
+2025-07-20 14:29:37,376 - INFO - Timestamp converted to datetime
+2025-07-20 14:29:37,377 - INFO - Courier id converted to lowercase
+2025-07-20 14:29:37,378 - INFO - Gps data cleaned
+2025-07-20 14:29:38,029 - INFO - Datatypes corected for Status data
+2025-07-20 14:29:38,036 - INFO - Timestamp converted to datetime
+2025-07-20 14:29:38,037 - INFO - Status converted to lowercase
+2025-07-20 14:29:59,210 - INFO - Data loaded to Snowflake
+2025-07-20 14:29:59,940 - INFO - Closing down clientserver connection
+2025-07-20 14:44:49,700 - INFO - Gps data loaded to dataframe gps_df
+2025-07-20 14:44:50,067 - INFO - Status data loaded to dataframe status_df
+2025-07-20 14:44:50,516 - INFO - Datatypes corected for GPS data
+2025-07-20 14:44:50,567 - INFO - Null values removed from GPS data
+2025-07-20 14:44:50,570 - INFO - Timestamp converted to datetime
+2025-07-20 14:44:50,571 - INFO - Courier id converted to lowercase
+2025-07-20 14:44:50,575 - INFO - Gps data cleaned
+2025-07-20 14:44:51,948 - INFO - Datatypes corected for Status data
+2025-07-20 14:44:51,959 - INFO - Timestamp converted to datetime
+2025-07-20 14:44:51,959 - INFO - Status converted to lowercase
+2025-07-20 14:45:12,353 - INFO - Data loaded to Snowflake
+2025-07-20 14:45:13,482 - INFO - Closing down clientserver connection
+2025-07-20 15:32:51,252 - INFO - Gps data loaded to dataframe gps_df
+2025-07-20 15:32:51,596 - INFO - Status data loaded to dataframe status_df
+2025-07-20 15:32:51,990 - INFO - Datatypes corected for GPS data
+2025-07-20 15:32:52,024 - INFO - Null values removed from GPS data
+2025-07-20 15:32:52,025 - INFO - Timestamp converted to datetime
+2025-07-20 15:32:52,027 - INFO - Courier id converted to lowercase
+2025-07-20 15:32:52,028 - INFO - Gps data cleaned
+2025-07-20 15:32:53,058 - INFO - Datatypes corected for Status data
+2025-07-20 15:32:53,065 - INFO - Timestamp converted to datetime
+2025-07-20 15:32:53,067 - INFO - Status converted to lowercase
+2025-07-20 15:33:17,248 - INFO - Data loaded to Snowflake
+2025-07-20 15:33:18,047 - INFO - Closing down clientserver connection
+2025-07-20 15:44:53,282 - INFO - Gps data loaded to dataframe gps_df
+2025-07-20 15:44:53,831 - INFO - Status data loaded to dataframe status_df
+2025-07-20 15:44:54,277 - INFO - Datatypes corected for GPS data
+2025-07-20 15:44:54,327 - INFO - Null values removed from GPS data
+2025-07-20 15:44:54,328 - INFO - Timestamp converted to datetime
+2025-07-20 15:44:54,329 - INFO - Courier id converted to lowercase
+2025-07-20 15:44:54,333 - INFO - Gps data cleaned
+2025-07-20 15:44:55,725 - INFO - Datatypes corected for Status data
+2025-07-20 15:44:55,796 - INFO - Timestamp converted to datetime
+2025-07-20 15:44:55,799 - INFO - Status converted to lowercase
+2025-07-20 15:45:21,912 - INFO - Data loaded to Snowflake
+2025-07-20 15:45:23,155 - INFO - Closing down clientserver connection
