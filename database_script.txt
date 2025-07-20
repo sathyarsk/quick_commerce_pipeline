@@ -1,0 +1,133 @@
+MySQL:
+
+create database quick_commerce;
+show databases;
+use quick_commerce;
+show tables;
+describe orders;
+select * from orders limit 10;
+
+
+Snowflake:
+
+CREATE OR REPLACE WAREHOUSE MY_WAREHOUSE
+WITH
+  WAREHOUSE_SIZE = 'XSMALL'
+  AUTO_SUSPEND = 60  -- suspends after 5 minutes of inactivity
+  AUTO_RESUME = TRUE;
+
+ USE ROLE SYSADMIN;
+
+ -- Create the database
+CREATE OR REPLACE DATABASE test;
+
+-- Use the new database and schema
+USE DATABASE test;
+USE SCHEMA public;
+
+create or replace table orders_dim(
+order_id BIGINT PRIMARY KEY,
+user_id BIGINT,
+item_id INT,
+quantity INT,
+price DECIMAL(10,2),
+order_ts TIMESTAMP,
+status VARCHAR(20),
+total_order_value DECIMAL(10,2),
+order_date date
+);
+create or replace table inventory_dim
+(
+item_id int,
+name varchar(30),
+category varchar(30),
+warehouse varchar(10),
+stock_level int,
+last_update datetime,
+stock_flag varchar(30)
+)constraint (item_id,name) primary key;
+
+create or replace table orders_fact
+(
+order_id int,
+item_id int,
+name varchar(30),
+warehouse varchar(10),
+total_order_value decimal(10,2),
+order_date date,
+stock_flag varchar(30)
+);
+
+
+insert into orders_fact(
+order_id,item_id,name,warehouse,total_order_value,order_date,stock_flag
+)
+select 
+o.order_id,o.item_id,i.name,i.warehouse,
+o.total_order_value,o.order_date,i.stock_flag
+from
+orders_dim o left join inventory_dim i
+on o.item_id=i.item_id;
+
+select count(*) from orders_fact;
+
+SELECT order_date,COUNT(*) AS order_count FROM orders_fact GROUP BY order_date ORDER BY order_date desc limit 10 ;
+
+SELECT AVG(total_order_value) AS avg_cart_value FROM orders_fact;
+
+select warehouse,name,count(*) as volume from orders_fact group by name,warehouse order by warehouse,count(*) desc;
+
+
+create or replace table gps_dim
+(
+courier_id varchar(6),
+lat double ,
+lon double ,
+ts datetime
+)
+alter table gps_dim  rename column ts to gps_ts;
+
+create or replace table status_dim
+(
+order_id int,
+courier_id varchar(6),
+status varchar(20),
+ts datetime
+)
+alter table status_dim  rename column ts to status_ts;
+
+
+select * from gps_dim;
+select * from status_dim;
+
+create or replace table courier_tracking
+(
+courier_id varchar(6),
+order_id int,
+lat double,
+lon double,
+gps_ts datetime,
+status varchar(20),
+status_ts datetime
+)
+
+insert into courier_tracking(
+courier_id,order_id,lat,lon,gps_ts,status,status_ts
+)
+select g.courier_id,s.order_id,g.lat,g.lon,g.gps_ts,s.status,s.status_ts
+from 
+gps_dim g inner join status_dim s
+on g.courier_id=s.courier_id;
+
+select * from courier_tracking;
+
+
+insert into orders_fact(
+order_id,item_id,name,warehouse,total_order_value,order_date,stock_flag
+)
+select 
+o.order_id,o.item_id,i.name,i.warehouse,
+o.total_order_value,o.order_date,i.stock_flag
+from
+orders_dim o left join inventory_dim i
+on o.item_id=i.item_id;
